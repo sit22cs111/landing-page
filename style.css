@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.landing{
+    background-image: url('https://img.freepik.com/free-photo/dark-cloth-with-plate-waffles_23-2148340374.jpg?w=900&t=st=1700140000~exp=1700140600~hmac=6a0a503f3b326548af6630e130d9ad90d7bfe0994ec3d628c24265cf49fac54f');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ header a{
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    display:flex;
+}
+
+#logo{
+    flex:3;
+    font-size:35px;
+    
+}
+
+.limg{
+    border-radius: 25px;
+    height: 80px;
+    width: 80px; 
+}
+nav{
+    flex:2;
+    display:flex;
+}
+
+nav a{
+    flex:1;
+    font-size: 30px;
+}
+
+nav a:hover{
+    color:khaki;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding: 2em;
+}
+
+.main{
+    color: black;
+    text-shadow:rgb(196, 181, 181);
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.tagline1{
+    color: #E95793;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.callus{
+    color:whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.lbu{
+    text-align: center;
+    
+}
+.lbu button{
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    background-color:#DEDAF4;
+
+}
+
+.lbu button:hover{
+    background-color: rgb(210, 17, 17);
+    cursor: pointer;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #807d7a;
+    color:black;
+}
+
+#menuheading,#locheading{
+    background-color:#4b4a4a;
+    font-size: 2.5em;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.menu th{
+    color: rgb(69, 102, 69);
+    font-size: 1.8em;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+
+.locations{
+background-color: #807d7a;
+color: black;
+display: flex;
+flex-wrap: wrap;
+}
+
+.locations h2{
+    color: rgb(69, 102, 69) ;
+    margin-bottom: 1em;
+}
+
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+
+footer{
+    background-color: #8b8680;
+    color: black;
+    padding: 25em 1em;
+
+}
